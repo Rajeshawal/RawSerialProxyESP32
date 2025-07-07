@@ -34,20 +34,7 @@ These components work together to:
 > *(Reference: stackoverflow.com)*
 > 
 ---
-## 📦 Download Releases (Windows Executables)
 
-You can download pre-built `.exe` files from the [🔗 GitHub Releases](https://github.com/Rajeshawal/RawSerialProxyESP32/releases) page.
-
-| Component | Executable | Description |
-|----------|------------|-------------|
-| 🔹 **Sender** | [RawSerialSender.exe](https://github.com/Rajeshawal/RawSerialProxyESP32/releases/download/v1.0-sender/Sender_Release_v1.0.zip) | Simulates ESP32/Arduino sensor data |
-| 🔸 **Proxy** | [RawSerialProxy.exe](https://github.com/Rajeshawal/RawSerialProxyESP32/releases/download/v1.0-proxy/Proxy_Release_v1.0.zip) | Forwards and logs serial data |
-| 🔺 **Receiver** | [RawSerialReceiver.exe](https://github.com/Rajeshawal/RawSerialProxyESP32/releases/download/v1.0-receiver/Receiver_Release_v1.0.zip) | Views/logs received serial data |
-
-> ⚠️ These are **standalone Windows executables** built using `pyinstaller`.  
-> If you prefer to run from source, follow the [📥 Installation steps](#️-installation-and-setup) below.
-
----
 
 ## 🧩 Components
 
