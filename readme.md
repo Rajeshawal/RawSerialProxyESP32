@@ -43,7 +43,12 @@ Simulates an IoT sensor device (e.g., **ESP32** or **Arduino**) by sending raw A
 - GUI interface to select the output COM port
 - Configurable sensor value ranges
 - Live log display of transmitted data
+---
+The Raw Serial Sender application simulates a device by sending out raw serial data...
 
+![Raw Serial Sender GUI](images/sender_gui.png)
+
+---
 ---
 
 ### 🔹 Raw Serial Proxy
@@ -53,6 +58,12 @@ A GUI application that:
 - Reads raw data from a **real COM port** (e.g., from a physical device)
 - Optionally logs and parses the incoming data
 - Forwards it to a **virtual COM port**
+---
+  The Raw Serial Proxy bridges data from a real device to a virtual port...
+
+![Raw Serial Proxy GUI](images/proxy_gui.png)
+
+---
 
 **Acts as a data bridge**, logging both incoming and forwarded data for inspection or long-term storage.
 ## 💡 Use Cases
@@ -98,6 +109,12 @@ Use the **Raw Serial Receiver** to:
 - Verify and visualize incoming data streams
 - Validate the format and content of simulated or real data
 - Confirm compatibility with downstream applications
+
+  ---
+The Raw Serial Receiver acts as a listener on a COM port...
+
+![Raw Serial Receiver GUI](images/receiver_gui.png)
+  ---
 
 > 🖥️ Can also act as a **lightweight dashboard** to monitor sensor outputs live
 ## ⚙️ Installation and Setup
