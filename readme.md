@@ -21,7 +21,7 @@ The project consists of three components:
 
 - **Sender** – Simulates an ESP32 (or Arduino) by sending data
 - **Proxy** – Bridges and logs serial communication
-- **Receiver** – Acts as a virtual consumer for testing or logging (**connect to matlab or visualization tools for real analysis**)
+- **Receiver** – While the receiver component acts as a simple data consumer for testing purposes, in real applications, one can use MATLAB or other visualization tools to receive and analyze the data.
 
 These components work together to:
 
